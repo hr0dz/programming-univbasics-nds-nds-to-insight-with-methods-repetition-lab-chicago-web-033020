@@ -54,6 +54,7 @@ def total_gross(source)
   # return the total
   
   grosstotals = directors_totals(source)
+  binding.pry
   directornames = list_of_directors(source)
   total = 0
   index = 0
