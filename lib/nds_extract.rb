@@ -59,8 +59,8 @@ def total_gross(source)
   total = 0
   index = 0
   binding.pry
-  while index < grosstotals.length do
-    x_value = grosstotals[index]
+  while index < directornames.length do
+    x_value = directornames[index]
     total += grosstotals[index]
     index += 1
     end
