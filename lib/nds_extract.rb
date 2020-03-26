@@ -41,9 +41,10 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  total = 0
-  directors_totals[]
+  directors_totals
   list_of_directors
+  index = 0
+  while index < 
   source
   # Write this implementation
   #
