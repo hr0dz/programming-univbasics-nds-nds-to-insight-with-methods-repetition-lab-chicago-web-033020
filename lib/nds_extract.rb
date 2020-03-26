@@ -61,7 +61,7 @@ def total_gross(source)
   index = 0
   while index < grosstotals.length do
     x_value = grosstotals[index][:name]
-    total += grosstotals[index][:name]
+    total += grosstotals[index][:name][0]
     index += 1
     binding.pry
     end
