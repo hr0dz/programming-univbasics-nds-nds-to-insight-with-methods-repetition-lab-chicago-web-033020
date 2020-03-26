@@ -59,13 +59,11 @@ def total_gross(source)
   directornames = list_of_directors(source)
   total = 0
   index = 0
+  binding.pry
   while index < grosstotals.length do
     x_value = grosstotals[index][:name]
     total += grosstotals[index][:name]
     index += 1
     end
-    binding.pry
 total
 end
-
-
