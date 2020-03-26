@@ -61,7 +61,7 @@ def total_gross(source)
   binding.pry
   while index < directornames.length do
     director = directornames[index]
-    total += grosstotals[index]
+    total += grosstotals[director]
     index += 1
     end
 total
