@@ -45,6 +45,7 @@ def total_gross(source)
  row_index = 0
  while row_index < source.length do
    total += directors_totals(source)
+   row_index += 1
   # Write this implementation
   #
   # Should use methods:
@@ -54,6 +55,8 @@ def total_gross(source)
   # Visit each key (i.e. director name), look up the value in the hash
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
+end
+total
 end
 
 
