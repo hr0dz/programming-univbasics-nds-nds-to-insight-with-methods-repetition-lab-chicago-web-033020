@@ -64,6 +64,7 @@ def total_gross(source)
     total += grosstotals[index][:name]
     index += 1
     end
+    binding.pry
 total
 end
 
