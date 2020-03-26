@@ -56,6 +56,9 @@ def total_gross(source)
   grosstotals = directors_totals(source)
   directornames = list_of_directors(source)
   total = 0
+  index = 0
+  while index < grosstotals.length do
+    total += grosstotals[index][:gross]
   
   
   
