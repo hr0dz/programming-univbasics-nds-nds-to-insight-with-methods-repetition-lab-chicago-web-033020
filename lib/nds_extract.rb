@@ -59,12 +59,7 @@ def total_gross(source)
   index = 0
   while index < grosstotals.length do
     total += grosstotals[index][:gross]
-  
-  
-  
-  
-  
-  
+    index += 1
 end
 total
 end
