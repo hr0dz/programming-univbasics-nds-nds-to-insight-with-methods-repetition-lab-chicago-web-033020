@@ -58,7 +58,6 @@ def total_gross(source)
   directornames = list_of_directors(source)
   total = 0
   index = 0
-  binding.pry
   while index < directornames.length do
     director = directornames[index]
     total += grosstotals[director]
