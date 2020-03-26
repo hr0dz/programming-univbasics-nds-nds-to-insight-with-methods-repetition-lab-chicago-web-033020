@@ -63,7 +63,7 @@ def total_gross(source)
     x_value = grosstotals[index][:name]
     total += grosstotals[index][:name]
     index += 1
-    end
     binding.pry
+    end
 total
 end
